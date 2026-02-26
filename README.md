@@ -1,3 +1,5 @@
+```
+```
 architecture-beta
     group api(logos:aws-lambda)[API]
 
@@ -9,4 +11,4 @@ architecture-beta
     db:L -- R:server
     disk1:T -- B:server
     disk2:T -- B:db
-
+```
