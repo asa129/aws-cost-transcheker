@@ -1,4 +1,4 @@
-```
+```mermaid
 architecture-beta
     group api(logos:aws-lambda)[API]
 
