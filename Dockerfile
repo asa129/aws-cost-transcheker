@@ -8,5 +8,5 @@ RUN pip install boto3
 
 # COPY . .
 
-CMD [ "python", "./your-daemon-or-script.py" ]
+CMD [ "python", "./sample.py" ]
 
