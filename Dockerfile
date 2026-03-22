@@ -4,9 +4,9 @@ WORKDIR /usr/src/app
 
 # COPY requirements.txt ./
 # RUN pip install --no-cache-dir -r requirements.txt\
-RUN pip install boto3
+RUN pip install boto3 "botocore[crt]"
 
-# COPY . .
+COPY . .
 
 CMD [ "python", "./sample.py" ]
 
